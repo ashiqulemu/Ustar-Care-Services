@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- FOR SEO 
+    <meta property='og:title' content='Custom Notion-styled Avatar Icon'/>
+    <meta property='og:image' content='./assets/images/link.jpg'/> 
+    <meta property='og:description' content='DESCRIPTION OF YOUR SITE'/>
+    <meta property='og:url' content='URL OF YOUR WEBSITE'/>
+    <meta property='og:image:width' content='1200' />
+    <meta property='og:image:height' content='627' />
+    <meta property="og:type" content='website'/>
+    -->
+
+    <title> </title>
+    <link rel="icon" href="./images/favi.png">
+    <link rel="stylesheet" href="css/bootstrap-5.1.3min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" type="text/css" href="./css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./css/slick-theme.css" />
+</head>
+<!-- oncontextmenu="return false;" -->
+
+<body  onscroll="scroller()">
+
+    <!-- header -->
+    <section class="siteHeader" id="header">
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg py-0 ">
+
+                    <a class="navbar-brand" href="/">
+                        <img src="./images/logo.svg" class="img-fluid mx-auto" width="200px">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <iconify-icon icon="mingcute:menu-fill" class="text-light fs-3"></iconify-icon>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ms-auto navCustom">
+                            <!-- "me-auto" for left align | "ms-auto" for right align | "mx-auto" for center align--->
+
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#carouselMain">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services">Service</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#footer">contact</a>
+                            </li>
+                        </ul>
+
+
+                    </div>
+
+                </nav>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- slider -->
+    <div id="carouselMain"  class="carousel   carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/testimonials.jpg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block text-white">
+                    <h1 class="text-warning">Slide Text Goes Here</h1>
+                    <h4 class="lh-3">Some representative placeholder content <br> for the second slide.</h4>
+                </div>
+            </div> 
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselMain" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselMain" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Recent Events -->
+
+    <section class="recent_services position-relative">
+        <div class="container">
+            <div class="row" id="services">
+                <div class="col-12 my-4">
+                    <h3 class="section-title ">Our all services </h3>
+                </div>
+
+                <div class="row mt-4 mx-auto">
+                    <div class="col-md-4">
+                        <div class="blogBox card-style">
+                            <img src="./images/services/1.jpeg" class="img-fluid">
+                            <div class="content d-flex justify-content-center flex-column text-center">
+
+                                <h2 class="title">Personal Care</h2>
+                                <div class="hideox">
+                                    <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    </p>
+                                    <small class="list-group mb-3 text-muted">
+                                        <div class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <div class="d-flex w-100  align-items-center text-start">
+                                                <iconify-icon icon="fluent:checkmark-starburst-24-filled"
+                                                    class="me-2 txt-secondary fs-3"></iconify-icon> Assistance with bathing, showering, and personal hygiene.
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <div class="d-flex w-100  align-items-center text-start">
+                                                <iconify-icon icon="fluent:checkmark-starburst-24-filled"
+                                                    class="me-2 txt-secondary fs-3"></iconify-icon> Help with dressing and grooming.
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <div class="d-flex w-100  align-items-center text-start">
+                                                <iconify-icon icon="fluent:checkmark-starburst-24-filled"
+                                                    class="me-2 txt-secondary fs-3"></iconify-icon>Support with toileting and incontinence care.
+                                            </div>
+                                        </div> 
+                                    </small>                                     
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="blogBox card-style">
+                            <img src="./images/services/2.jpg" class="img-fluid">
+                            <div class="content d-flex justify-content-center flex-column text-center">
+
+                                <h2 class="title">Mobility Assistance </h2>
+                             <div class="hideox">
+                                <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                                <small class="list-group mb-3 text-muted">
+                                    <div class="list-group-item list-group-item-action flex-column align-items-start">
+                                        <div class="d-flex w-100  align-items-center text-start">
+                                            <iconify-icon icon="fluent:checkmark-starburst-24-filled"
+                                                class="me-2 txt-secondary fs-3"></iconify-icon> Assistance with transferring in & out of bed or chairs.
+                                        </div>
+                                    </div>
+                                    <div class="list-group-item list-group-item-action flex-column align-items-start">
+                                        <div class="d-flex w-100  align-items-center text-start">
+                                            <iconify-icon icon="fluent:checkmark-starburst-24-filled"
+                                                class="me-2 txt-secondary fs-3"></iconify-icon> Support with using mobility aids like walkers or wheelchairs.
+                                        </div>
+                                    </div>
+                                    <div class="list-group-item list-group-item-action flex-column align-items-start">
+                                        <div class="d-flex w-100  align-items-center text-start">
+                                            <iconify-icon icon="fluent:checkmark-starburst-24-filled"
+                                                class="me-2 txt-secondary fs-3"></iconify-icon> Ensuring safety during movements to prevent falls.
+                                        </div>
+                                    </div>
+                                    
+
+                                </small>
+                                
+                             </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="blogBox card-style">
+                            <img src="./images/services/3.jpg" class="img-fluid">
+                            <div class="content d-flex justify-content-center flex-column text-center">
+
+                                <h2 class="title">Medication Management</h2>
+                               <div class="hideox">
+                                <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                                <small class="list-group mb-3 text-muted">
+                                    <div class="list-group-item list-group-item-action flex-column align-items-start">
+                                        <div class="d-flex w-100  align-items-center text-start">
+                                            <iconify-icon icon="fluent:checkmark-starburst-24-filled"
+                                                class="me-2 txt-secondary fs-3"></iconify-icon>Reminding the individual to take prescribed medications.
+                                        </div>
+                                    </div>
+                                    <div class="list-group-item list-group-item-action flex-column align-items-start">
+                                        <div class="d-flex w-100  align-items-center text-start">
+                                            <iconify-icon icon="fluent:checkmark-starburst-24-filled"
+                                                class="me-2 txt-secondary fs-3"></iconify-icon> Assisting with medication administration as needed.
+                                        </div>
+                                    </div> 
+                                </small>
+                                
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="blogBox card-style">
+                            <img src="./images/services/4.jpg" class="img-fluid">
+                            <div class="content d-flex justify-content-center flex-column text-center">
+
+                                <h2 class="title">Meal Preparation</h2>
+                              <div class="hideox">
+                                <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                                <small class="list-group mb-3 text-muted">
+                                    <div class="list-group-item list-group-item-action flex-column align-items-start">
+                                        <div class="d-flex w-100  align-items-center text-start">
+                                            <iconify-icon icon="fluent:checkmark-starburst-24-filled"
+                                                class="me-2 txt-secondary fs-3"></iconify-icon>Planning and preparing nutritious meals based on dietary needs.
+                                        </div>
+                                    </div>
+                                    <div class="list-group-item list-group-item-action flex-column align-items-start">
+                                        <div class="d-flex w-100  align-items-center text-start">
+                                            <iconify-icon icon="fluent:checkmark-starburst-24-filled"
+                                                class="me-2 txt-secondary fs-3"></iconify-icon> Assistance with feeding if required.
+                                        </div>
+                                    </div> 
+                                </small>
+                                
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="blogBox card-style">
+                            <img src="./images/services/5.jpg" class="img-fluid">
+                            <div class="content d-flex justify-content-center flex-column text-center">
+
+                                <h2 class="title">Household Tasks</h2>
+                              <div class="hideox">
+                                <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                                <small class="list-group mb-3 text-muted">
+                                    <div class="list-group-item list-group-item-action flex-column align-items-start">
+                                        <div class="d-flex w-100  align-items-center text-start">
+                                            <iconify-icon icon="fluent:checkmark-starburst-24-filled"
+                                                class="me-2 txt-secondary fs-3"></iconify-icon>Light housekeeping, including cleaning, laundry, and dishwashing.
+                                        </div>
+                                    </div>
+                                    <div class="list-group-item list-group-item-action flex-column align-items-start">
+                                        <div class="d-flex w-100  align-items-center text-start">
+                                            <iconify-icon icon="fluent:checkmark-starburst-24-filled"
+                                                class="me-2 txt-secondary fs-3"></iconify-icon>Shopping for groceries and other essentials.
+                                        </div>
+                                    </div> 
+                                </small>
+                                
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="blogBox card-style">
+                            <img src="./images/services/6.jpg" class="img-fluid">
+                            <div class="content d-flex justify-content-center flex-column text-center">
+
+                                <h2 class="title">Companionship</h2>
+                               <div class="hideox">
+                                <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                                <small class="list-group mb-3 text-muted">
+                                    <div class="list-group-item list-group-item-action flex-column align-items-start">
+                                        <div class="d-flex w-100  align-items-center text-start">
+                                            <iconify-icon icon="fluent:checkmark-starburst-24-filled"
+                                                class="me-2 txt-secondary fs-3"></iconify-icon>Providing emotional support and companionship.
+                                        </div>
+                                    </div>
+                                    <div class="list-group-item list-group-item-action flex-column align-items-start">
+                                        <div class="d-flex w-100  align-items-center text-start">
+                                            <iconify-icon icon="fluent:checkmark-starburst-24-filled"
+                                                class="me-2 txt-secondary fs-3"></iconify-icon>Engaging in conversation & recreational activities.
+                                        </div>
+                                    </div> 
+                                    <div class="list-group-item list-group-item-action flex-column align-items-start">
+                                        <div class="d-flex w-100  align-items-center text-start">
+                                            <iconify-icon icon="fluent:checkmark-starburst-24-filled"
+                                                class="me-2 txt-secondary fs-3"></iconify-icon>
+                                                Accompanying the individual on outings or appointments.
+                                        </div>
+                                    </div> 
+                                </small>
+                                
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="blogBox card-style">
+                            <img src="./images/services/7.jpg" class="img-fluid">
+                            <div class="content d-flex justify-content-center flex-column text-center">
+
+                                <h2 class="title">Health Monitoring</h2>
+                             <div class="hideox">
+                                <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                                <small class="list-group mb-3 text-muted">
+                                    <div class="list-group-item list-group-item-action flex-column align-items-start">
+                                        <div class="d-flex w-100  align-items-center text-start">
+                                            <iconify-icon icon="fluent:checkmark-starburst-24-filled"
+                                                class="me-2 txt-secondary fs-3"></iconify-icon>Keeping track of the individual's health status and reporting changes.
+                                        </div>
+                                    </div>
+                                    <div class="list-group-item list-group-item-action flex-column align-items-start">
+                                        <div class="d-flex w-100  align-items-center text-start">
+                                            <iconify-icon icon="fluent:checkmark-starburst-24-filled"
+                                                class="me-2 txt-secondary fs-3"></iconify-icon>Monitoring vital signs if necessary.
+                                        </div>
+                                    </div> 
+                                   
+                                </small>
+                                
+                             </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="blogBox card-style">
+                            <img src="./images/services/9.jpg" class="img-fluid">
+                            <div class="content d-flex justify-content-center flex-column text-center">
+
+                                <h2 class="title">Respite Care</h2>
+                             <div class="hideox">
+                                <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                                <small class="list-group mb-3 text-muted">
+                                    <div class="list-group-item list-group-item-action flex-column align-items-start">
+                                        <div class="d-flex w-100  align-items-center text-start">
+                                            <iconify-icon icon="fluent:checkmark-starburst-24-filled"
+                                                class="me-2 txt-secondary fs-3"></iconify-icon>Providing temporary relief to family caregivers.
+                                        </div>
+                                    </div>
+                                    <div class="list-group-item list-group-item-action flex-column align-items-start">
+                                        <div class="d-flex w-100  align-items-center text-start">
+                                            <iconify-icon icon="fluent:checkmark-starburst-24-filled"
+                                                class="me-2 txt-secondary fs-3"></iconify-icon>Allowing family members to take a break while the carer looks after their loved one.
+                                        </div>
+                                    </div> 
+                                   
+                                </small>
+                                
+                             </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="blogBox card-style">
+                            <img src="./images/services/10.jpg" class="img-fluid">
+                            <div class="content d-flex justify-content-center flex-column text-center">
+
+                                <h2 class="title">End-of-Life Care</h2>
+                              <div class="hideox">
+                                <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                                <small class="list-group mb-3 text-muted">
+                                    <div class="list-group-item list-group-item-action flex-column align-items-start">
+                                        <div class="d-flex w-100  align-items-center text-start">
+                                            <iconify-icon icon="fluent:checkmark-starburst-24-filled"
+                                                class="me-2 txt-secondary fs-3"></iconify-icon>Providing compassionate care and support to individuals with terminal illnesses.
+                                        </div>
+                                    </div>
+                                    <div class="list-group-item list-group-item-action flex-column align-items-start">
+                                        <div class="d-flex w-100  align-items-center text-start">
+                                            <iconify-icon icon="fluent:checkmark-starburst-24-filled"
+                                                class="me-2 txt-secondary fs-3"></iconify-icon>Ensuring comfort and dignity during this challenging time.
+                                        </div>
+                                    </div> 
+                                   
+                                </small>
+                                
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="blogBox card-style">
+                            <img src="./images/services/11.jpg" class="img-fluid">
+                            <div class="content d-flex justify-content-center flex-column text-center">
+
+                                <h2 class="title">Specialized Care</h2>
+                               <div class="hideox">
+                                <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                                <small class="list-group mb-3 text-muted">
+                                    <div class="list-group-item list-group-item-action flex-column align-items-start">
+                                        <div class="d-flex w-100  align-items-center text-start">
+                                            <iconify-icon icon="fluent:checkmark-starburst-24-filled"
+                                                class="me-2 txt-secondary fs-3"></iconify-icon>Some personal carers may have specialized training to care for individuals
+                                        </div>
+                                    </div>
+                                    <div class="list-group-item list-group-item-action flex-column align-items-start">
+                                        <div class="d-flex w-100  align-items-center text-start">
+                                            <iconify-icon icon="fluent:checkmark-starburst-24-filled"
+                                                class="me-2 txt-secondary fs-3"></iconify-icon> Also specific conditions such as dementia, Alzheimer's, or autism.
+                                        </div>
+                                    </div> 
+                                   
+                                </small>
+                                
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-3 px-4 footer-bg" id="footer">
+        <div class="container">
+            <div class="mt-4">
+                <div class="row justify-content-lg-between text-light">
+                    <div class="col-lg-8 col-md-6 col-sm-12 my-3 d-flex align-items-center">
+                         
+                            <div class="w-100">
+                                <h5 class="txt-primary fw-bold">OUR LOCATIONS ON GOOGLE</h5>  <br>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9582042.275806034!2d-15.009170750485646!3d54.102719114920326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x25a3b1142c791a9%3A0xc4f8a0433288257a!2sUnited%20Kingdom!5e0!3m2!1sen!2sbd!4v1694782327791!5m2!1sen!2sbd" width="100%" height="250"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                         
+                    </div>
+
+                    <div class="col-lg-4 col-md-3 col-sm-12 my-2 py-4">
+                        <h5 class="mb-3 txt-primary fw-bold">CONTACT US</h5>  
+                        <p class="d-flex align-items-center">
+                            <iconify-icon icon="bxs:map" class="iconify txt-primary fs-4 me-2"></iconify-icon> 
+                            <small>Ustar Care Services address goes here</small>
+                        </p>
+                        <p class="d-flex align-items-center">
+                            
+                            <iconify-icon icon="carbon:phone-filled"class="iconify txt-primary fs-4 me-2"></iconify-icon> 
+                            <small> 07846919868</small>
+                        </p>
+                        <p class="d-flex align-items-center">
+                            <iconify-icon icon="clarity:email-solid" class="iconify txt-primary fs-4 me-2"></iconify-icon>
+                            <small> rwenzok@gmail.com</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4" style="background:rgba(255,255,255,0.5)">
+            <div class="space-1">
+                <!-- Copyright -->
+                <div class="text-center">
+                    <small class="mb-0 small txt-primary"> All rights reserved © Ustar Care Services 2023.</small>
+                </div>
+                <!-- End Copyright -->
+            </div>
+        </div>
+    </footer>
+    <script src="js/bootstrap-5.bundle.min.js"></script>
+    <script src="js/iconify.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="./js/slick.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $('.testimonial').slick({
+                centerMode: true,
+                centerPadding: '0px',
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                draggable: true,
+                swipeToSlide: true,
+                arrows: false,
+                dots: true,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                            arrows: true,
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            arrows: false,
+                            dots: true,
+                            centerMode: true,
+                            centerPadding: '0px',
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            arrows: false,
+                            dots: true,
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            arrows: false,
+                            dots: true,
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    },
+                ]
+            });
+
+            // blog slider
+            $('.center').slick({
+                centerMode: true,
+                centerPadding: '0px',
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                draggable: true,
+                swipeToSlide: true,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                            arrows: true,
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            arrows: false,
+                            dots: true,
+                            centerMode: true,
+                            centerPadding: '0px',
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            arrows: false,
+                            dots: true,
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            arrows: false,
+                            dots: true,
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    },
+                ]
+            });
+
+            // partners
+
+            $('.partners').slick({
+                centerMode: true,
+                centerPadding: '0px',
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                draggable: true,
+                swipeToSlide: true,
+                arrows: false,
+                dots: true,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 5,
+                            slidesToScroll: 1,
+
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            arrows: false,
+                            dots: true,
+                            centerMode: true,
+                            centerPadding: '0px',
+                            slidesToShow: 2,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            arrows: false,
+                            dots: true,
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            arrows: false,
+                            dots: true,
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    },
+                ]
+            });
+
+        });
+
+
+        // slider main
+
+        $('#carouselMain').carousel({
+            interval: 3000,
+            cycle: true
+        });
+
+
+    </script>
+    <script>
+        document.onkeydown = function (e) {
+            if (e.ctrlKey && e.keyCode === 85) {
+                alert("sed");
+                return false;
+            }
+        };
+    </script>
+
+</body>
+
+</html>
