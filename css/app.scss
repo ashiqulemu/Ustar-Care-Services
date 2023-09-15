@@ -1,6 +1,6 @@
 // variables
 
-$primary: #FFD653 !important;
+$primary: #FFC0CB !important;
 $secondary: #07157C !important;
 $txt: #585858;
 $white: #fff;
@@ -208,13 +208,14 @@ body {
 //   navbar css
 
 .siteHeader {
-    background: $secondary;
+    // background: $secondary;
+    background:#fff !important;
     &.active {
         transition: all 0.4s ease-in;
         position: fixed;
         left: 0;
         right: 0;
-        background:#35447ede !important;
+        background:#fff !important;
         z-index: 10; 
         -webkit-backdrop-filter: blur(2px);
         backdrop-filter: blur(4px);
@@ -234,7 +235,7 @@ body {
             .nav-link {
                 margin-right: 0;
                 font-size: 15px;
-                color: $white;
+                color: #212121;
                 padding: 8px 12px;
                 border-radius: 4px;
                 font-family: 'poppins-regular';
@@ -245,12 +246,10 @@ body {
                 }
 
                 &:hover {
-                    color: darken(#FFCE56, 15%);
+                    color: #ff8ca0 !important;
                 }
 
-                &.active {
-                    color: $primary;
-                }
+               
             }
 
             .dropdown-item {
