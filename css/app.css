@@ -4,7 +4,7 @@ a {
 }
 
 .txt-primary {
-  color: #FFC0CB !important;
+  color: #F280A1 !important;
 }
 
 .txt-secondary {
@@ -16,13 +16,13 @@ a {
 }
 
 .bg-primary {
-  background: #FFC0CB !important;
+  background: #F280A1 !important;
   background: #07157C !important;
-  border-color: #FFC0CB !important;
-  color: #FFC0CB !important;
+  border-color: #F280A1 !important;
+  color: #F280A1 !important;
 }
 .bg-primary:hover {
-  background: #FFC0CB !important;
+  background: #F280A1 !important;
   color: #07157C !important;
 }
 
@@ -45,7 +45,7 @@ html {
   content: "";
   width: 60px;
   height: 4px;
-  background-color: #FFC0CB !important;
+  background-color: #F280A1 !important;
   bottom: -10px;
   left: 0;
 }
@@ -72,7 +72,7 @@ html {
   color: #fff;
 }
 .newsletter .go:hover {
-  color: #FFC0CB !important;
+  color: #F280A1 !important;
 }
 
 .card-style {
@@ -109,7 +109,7 @@ html {
   height: 35px;
   width: 35px;
   border-radius: 4px;
-  color: #FFC0CB !important;
+  color: #F280A1 !important;
   background-color: #07157C !important;
 }
 .card-style .content .social a .iconify {
@@ -155,7 +155,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #FFC0CB !important;
+  color: #F280A1 !important;
   height: 100%;
   color: #07157C !important;
   background: #ffd03a;
@@ -205,11 +205,11 @@ body {
   color: #ff8ca0 !important;
 }
 .siteHeader .navCustom .nav-item .dropdown-item:hover {
-  background-color: #FFC0CB !important;
+  background-color: #F280A1 !important;
   color: #fff;
 }
 .siteHeader .navCustom .nav-item .dropdown-item.active {
-  background-color: #FFC0CB !important;
+  background-color: #F280A1 !important;
   color: #fff;
 }
 
@@ -241,7 +241,7 @@ body {
   padding-left: 15px;
 }
 .default.partner h5:hover {
-  color: #FFC0CB !important;
+  color: #F280A1 !important;
 }
 
 .gelleryBox {
@@ -298,7 +298,7 @@ body {
 .slick-next {
   height: 35px !important;
   width: 35px !important;
-  background: #FFC0CB !important;
+  background: #F280A1 !important;
 }
 .slick-next:hover {
   background: #07157C !important;
@@ -307,7 +307,7 @@ body {
 .slick-prev {
   height: 35px !important;
   width: 35px !important;
-  background: #FFC0CB !important;
+  background: #F280A1 !important;
 }
 .slick-prev:hover {
   background: #07157C !important;
@@ -321,7 +321,7 @@ body {
 }
 
 .slick-dots li.slick-active button {
-  background: #FFC0CB !important;
+  background: #F280A1 !important;
 }
 
 .carousel-indicators {
@@ -552,7 +552,7 @@ footer .nav-item a:hover {
 }
 .blog .blog-images .box-date {
   position: absolute;
-  background: #FFC0CB !important;
+  background: #F280A1 !important;
   z-index: 2;
   bottom: 0;
   left: 0;
@@ -640,8 +640,8 @@ footer .nav-item a:hover {
 }
 .btn-theme:hover {
   background: #07157C !important;
-  border-color: #FFC0CB !important;
-  color: #FFC0CB !important;
+  border-color: #F280A1 !important;
+  color: #F280A1 !important;
 }
 
 .page-item.active .page-link {
@@ -818,7 +818,7 @@ footer .nav-item a:hover {
 }
 .blog .blog-images .box-date {
   position: absolute;
-  background: #FFC0CB !important;
+  background: #F280A1 !important;
   z-index: 2;
   border-radius: 0 10px 0 0;
   bottom: 0;
@@ -897,7 +897,7 @@ footer .nav-item a:hover {
   margin-right: 5px;
 }
 .blog-aside .categori .categori-list li a:hover {
-  color: #FFC0CB !important;
+  color: #F280A1 !important;
 }
 .blog-aside .recent-post-widget {
   border: 1px solid #e5e9f4;
@@ -1010,7 +1010,7 @@ footer .nav-item a:hover {
   font-size: 13px;
 }
 .blog-details .blog-content .content .post-meta li a:hover {
-  color: #FFC0CB !important;
+  color: #F280A1 !important;
 }
 .blog-details .blog-content .content .title {
   font-size: 20px;
@@ -1060,7 +1060,7 @@ footer .nav-item a:hover {
   display: inline-block;
   color: #fff;
   margin-left: 2px;
-  background: #FFC0CB !important;
+  background: #F280A1 !important;
   transition: all 0.3s ease-in;
 }
 .blog-details .blog-content .content .tag-social-link .social-links li a:hover {
