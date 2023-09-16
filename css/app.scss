@@ -241,6 +241,10 @@ body {
                 font-family: 'poppins-regular';
                 text-transform: uppercase;
 
+                &.active{
+                    color: $primary;
+                }
+
                 @media(max-width:1024px) {
                     font-size: 14px;
                 }

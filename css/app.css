@@ -196,6 +196,9 @@ body {
   font-family: "poppins-regular";
   text-transform: uppercase;
 }
+.siteHeader .navCustom .nav-item .nav-link.active {
+  color: #F280A1 !important;
+}
 @media (max-width: 1024px) {
   .siteHeader .navCustom .nav-item .nav-link {
     font-size: 14px;
