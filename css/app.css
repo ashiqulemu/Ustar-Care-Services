@@ -184,7 +184,7 @@ body {
 }
 @media (max-width: 375px) {
   .siteHeader .navbar-brand img {
-    width: 200px;
+    width: 160px !important;
   }
 }
 .siteHeader .navCustom .nav-item .nav-link {

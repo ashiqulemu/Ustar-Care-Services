@@ -225,7 +225,7 @@ body {
     .navbar-brand {
         img {
             @media(max-width:375px) {
-                width: 200px;
+                width: 160px!important;
             }
         }
     }
