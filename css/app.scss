@@ -24,7 +24,7 @@ a {
 }
 
 .bg-primary {
-    background: $primary ; 
+    background: $primary ;
     border-color: $primary;
     color: $primary;
 
@@ -208,14 +208,15 @@ body {
 
 .siteHeader {
     // background: $secondary;
-    background:#fff !important;
+    background: #fff !important;
+
     &.active {
         transition: all 0.4s ease-in;
         position: fixed;
         left: 0;
         right: 0;
-        background:#fff !important;
-        z-index: 10; 
+        background: #fff !important;
+        z-index: 10;
         -webkit-backdrop-filter: blur(2px);
         backdrop-filter: blur(4px);
         animation: fromTop 0.6s backwards;
@@ -224,7 +225,7 @@ body {
     .navbar-brand {
         img {
             @media(max-width:375px) {
-                width: 160px!important;
+                width: 160px !important;
             }
         }
     }
@@ -240,7 +241,7 @@ body {
                 font-family: 'poppins-regular';
                 text-transform: uppercase;
 
-                &.active{
+                &.active {
                     color: $primary;
                 }
 
@@ -252,7 +253,7 @@ body {
                     color: #ff8ca0 !important;
                 }
 
-               
+
             }
 
             .dropdown-item {
@@ -355,19 +356,30 @@ body {
 }
 
 .blogBox {
-    transition: all 0.4s ease-in-out; 
-    margin-bottom: 20px;
-    .hideox{
-        transition: all 0.4s ease-in-out;
-        height: 35px;  
+    transition: height 0.4s ease-in-out; 
+    height:260px;
+
+    @media(max-width:768px){
+        height: 300px;
     }
-    &:hover{ 
-        .hideox{
-            transition: all 0.4s ease-in-out;
-            // height: 140px; 
-            --min-height:200px;
-             height:calc(var(--min-height) + 38px);
-        }
+    @media(max-width:500px){
+        height: 270px;
+    }
+    @media(max-width:460px){
+        height: 260px;
+    }
+    @media(max-width:425px){
+        height: 243px;
+    }
+    @media(max-width:375px){
+        height: 220px;
+    }
+    @media(max-width:320px){
+        height: 190px;
+    }
+
+    &:hover {  
+        height: 100%;
     }
 
 }
@@ -1404,13 +1416,14 @@ footer {
 }
 
 
- 
+
 
 @keyframes fromTop {
     0% {
-      top: -59px;
+        top: -59px;
     }
+
     100% {
-      top: 0;
+        top: 0;
     }
-  }
+}

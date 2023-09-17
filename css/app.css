@@ -284,17 +284,41 @@ body {
 }
 
 .blogBox {
-  transition: all 0.4s ease-in-out;
-  margin-bottom: 20px;
+  transition: height 0.4s ease-in-out;
+  height: 260px;
 }
-.blogBox .hideox {
-  transition: all 0.4s ease-in-out;
-  height: 35px;
+@media (max-width: 768px) {
+  .blogBox {
+    height: 300px;
+  }
 }
-.blogBox:hover .hideox {
-  transition: all 0.4s ease-in-out;
-  --min-height:200px;
-  height: calc(var(--min-height) + 38px);
+@media (max-width: 500px) {
+  .blogBox {
+    height: 270px;
+  }
+}
+@media (max-width: 460px) {
+  .blogBox {
+    height: 260px;
+  }
+}
+@media (max-width: 425px) {
+  .blogBox {
+    height: 243px;
+  }
+}
+@media (max-width: 375px) {
+  .blogBox {
+    height: 220px;
+  }
+}
+@media (max-width: 320px) {
+  .blogBox {
+    height: 190px;
+  }
+}
+.blogBox:hover {
+  height: 100%;
 }
 
 .slick-next {
